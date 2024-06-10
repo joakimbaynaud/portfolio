@@ -1,0 +1,266 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+}
+
+#start {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    background-color: #e7e7e7;
+}
+
+#colonne {
+    background-color: #2A2E36;
+    width:350px;
+    height:100%;
+    display: flex; 
+    flex-direction:column;
+    align-items: center;
+}
+
+#photo-profil {
+    margin-top: 20px;
+    height: 270px;
+    width: 230px;
+    object-fit: cover;
+    border: 12px solid #ffffff;
+    z-index: 1;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+#prenom {
+    height: 130px;
+    padding-top: 40px;
+    padding-left: 300px;
+    padding-right: 100px;
+    margin-top: 100px;
+    margin-left: -170px;
+    font-size: 55px;
+    font-family: sans-serif;
+    background-color: #F4D644;
+    z-index: 1;
+}
+
+.surNoir {
+    color: #ffffff;
+}
+
+#infoPerso {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+#contact {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #707070;
+    color: #e7e7e7;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+
+#Bienvenue {
+    margin-left: -450px;
+    margin-top: 350px;
+    width: 380px;
+}
+
+#textBienvenue {
+    font-weight: 400;
+    color: #535353;
+}
+
+footer {
+    background-color: #535353;
+}
+
+.part {
+    margin-top: 150px;
+    padding-left: 30px;
+}
+
+.titreDeParties {
+    font-family: sans-serif;
+}
+
+#lesMaitrises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contact a h2 {
+    display: none;
+}
+
+#contact:hover a h2 {
+    display: block; 
+}
+
+#contact h2 {
+    display: block;
+}
+
+#contact:hover h2 {
+    display: none; 
+}
+
+#textContact {
+    padding: 0px;
+    margin: 0px;
+}
+
+#mail {
+    padding: 0px;
+    color: #e7e7e7;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+#tel {
+    padding: 0px;
+    color: #e7e7e7;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+a h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photoGrille {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    object-fit: contain;
+}
+
+.camembert {
+    background: radial-gradient(circle at 70% 30%, #6d6d6d 0%, #838383 60%, #fbff2c 100%);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 100px;
+}
+
+.centreCamembert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.Projet {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden; 
+    margin: 50px;
+    border: 6px solid rgb(68, 68, 68); 
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6); 
+}
+
+.photoProjet {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: black; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.description h3, .description p {
+    margin: 0;
+}
+
+#projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#language ,#différentesUtilisationDuCode {
+    border-radius: 30px;
+    background-color: #aaaaaa;
+    margin: 30px;
+    padding: 15px;
+    border: 6px solid rgb(68, 68, 68); 
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+#ide {
+    border-radius: 30px;
+    background-color:#F4D644;
+    margin: 30px;
+    padding: 15px;
+    border: 6px solid rgb(68, 68, 68); 
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+#découverteRapide {
+    background: linear-gradient(#F4D644 0%,#F4D644 95%,#ffffff 100%);
+    padding-top: 60px;
+    padding-bottom: 360px;
+    margin-top: 0px;
+}
+
+#lesAutresPassions {
+    padding-top: 40px;
+    background: linear-gradient(#ffffff 0%,#4e4e4e 5%,#1a1a1a 100%);
+    color: #ebebeb;
+}
+
+.dessins {
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(216, 216, 216); 
+    box-shadow: 6px 6px 22px rgba(255, 255, 255, 0.6);
+    margin: 60px;
+    object-fit:contain;
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
